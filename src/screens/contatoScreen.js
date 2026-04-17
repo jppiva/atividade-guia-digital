@@ -15,6 +15,7 @@ export default function contatoScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#000000',
