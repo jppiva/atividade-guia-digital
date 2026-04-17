@@ -3,9 +3,10 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function sobreScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.emoji}>👤</Text>
-      <Text style={styles.text}>Tela sobre</Text>
-      <Text style={styles.subtitle}>Informações do usuário</Text>
+      <Text style={styles.emoji}>ℹ️</Text>
+      <Text style={styles.text}>GUIA DIGITAL DE FILMES E SÉRIES </Text>
+      <Text style={styles.subtitle}>O objetivo do app é ajudar usuários a encontrar filmes e séries interessantes, com informações detalhadas e navegação simples.
+</Text>
     </View>
   );
 }
@@ -22,13 +23,14 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   text: {
-    fontSize: 28,
+    fontSize: 18,
     fontWeight: 'bold',
     color: '#1e40af',
   },
   subtitle: {
-    fontSize: 16,
+    fontSize: 18,
     color: '#64748b',
     marginTop: 8,
+    marginLeft:45,
   },
 });    
