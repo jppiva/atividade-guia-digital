@@ -3,9 +3,11 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function contatoScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.emoji}>⚙️</Text>
-      <Text style={styles.text}>Tela contato</Text>
-      <Text style={styles.subtitle}>Ajuste suas preferências</Text>
+      <Text style={styles.emoji}>📞</Text>
+      <Text style={styles.text}>Qualquer Duvida</Text>
+      <Text style={styles.subtitle}>☎️ (19) 99339-1877</Text>
+      <Text style={styles.subtitle}>📧 joaopedropiva17@gmail.com</Text>
+      <Text style={styles.subtitle}>🌐 @jppiva17</Text>
     </View>
   );
 }
@@ -13,6 +15,7 @@ export default function contatoScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#000000',
