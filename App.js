@@ -6,6 +6,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import HomeScreen from './src/screens/inicioScreen';
 import PerfilScreen from './src/screens/sobreScreen';
 import ConfigScreen from './src/screens/contatoScreen';
+import contatoScreen from './src/screens/invencivel';
 
 const Drawer = createDrawerNavigator();
 
@@ -39,6 +40,7 @@ export default function App() {
           <Drawer.Screen name="inicio" component={HomeScreen} />
           <Drawer.Screen name="sobre" component={PerfilScreen} />
           <Drawer.Screen name="contato" component={ConfigScreen} />
+          <Drawer.Screen name="contatoScreen" component={contatoScreen} />
         </Drawer.Navigator>
       </NavigationContainer>
     </GestureHandlerRootView>
